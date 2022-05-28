@@ -1,1 +1,1 @@
-web: streamlit run chatbot.py
+worker: python chatbot.py
