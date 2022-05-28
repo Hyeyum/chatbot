@@ -1,1 +1,1 @@
-clock: python chatbot.py
+web: sh setup.sh && streamlit run chatbot.py
