@@ -2,3 +2,4 @@ pandas==1.4.2
 streamlit==1.9.2
 streamlit-chat==0.0.2.1
 psycopg2==2.6.2
+gunicorn
