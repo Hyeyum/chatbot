@@ -1,1 +1,1 @@
-worker: python chatbot.py
+clock: python chatbot.py
