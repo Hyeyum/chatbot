@@ -20,14 +20,9 @@ model = cached_model()
 df = get_dataset()
 
 st.header('심리상담 챗봇')
-#st.subheader("2022-1\n문화테크놀로지1 기말 과제")
-#st.markdown("#### 문화테크놀로지1 기말 과제")
 st.markdown("#### 2022-1")
 st.markdown("##### 문화테크놀로지1 기말 과제")
 st.text("김지윤\nSKKU COMEDU & CnT\njeeyoonee@g.skku.edu")
-#st.text("SKKU COMEDU & CnT")
-#st.text("jeeyoonee@g.skku.edu")
-
 
 if 'generated' not in st.session_state:
     st.session_state['generated'] = []
