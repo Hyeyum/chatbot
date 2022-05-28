@@ -12,7 +12,7 @@ def cached_model():
 
 @st.cache(allow_output_mutation=True)
 def get_dataset():
-    df = pd.read_csv('wellness_dataset.csv')
+    df = pd.read_csv('wellness_dataset.csv', encoding='cp949')
     df['embedding'] = df['embedding'].apply(json.loads)
     return df
 
