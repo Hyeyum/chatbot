@@ -1,1 +1,1 @@
-web: gunicorn chattingjun.app
+worker: python chatbot.py
